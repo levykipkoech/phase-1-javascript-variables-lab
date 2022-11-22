@@ -4,6 +4,5 @@
   let mostProfitableNeighborhood= "Chelsea" 
 
   var companyCeo = "Susan Smith"
-
   let CompanyCeo = "Susan Smith"
-
+ 

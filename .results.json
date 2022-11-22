@@ -5,22 +5,22 @@
     "passes": 5,
     "pending": 0,
     "failures": 1,
-    "start": "2022-11-22T17:19:02.245Z",
-    "end": "2022-11-22T17:19:02.702Z",
+    "start": "2022-11-22T17:26:02.545Z",
+    "end": "2022-11-22T17:26:03.002Z",
     "duration": 457
   },
   "tests": [
     {
       "title": "is set as Scuber",
       "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is defined as a const",
       "fullTitle": "index.js companyName is defined as a const",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,13 +48,13 @@
     {
       "title": "is defined using let",
       "fullTitle": "index.js companyCeo is defined using let",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
-        "message": "Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\n const companyName = \"Scuber\"\\n\\n  let mostProfitableNeighborhood= \"Chelsea\" \\n\\n  var companyCeo = \"Susan Smith\"\\n\\n  let CompanyCeo = \"Susan Smith\"\\n\\n' to match /let companyCeo/",
+        "message": "Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\n const companyName = \"Scuber\"\\n\\n  let mostProfitableNeighborhood= \"Chelsea\" \\n\\n  var companyCeo = \"Susan Smith\"\\n  let CompanyCeo = \"Susan Smith\"\\n \\n' to match /let companyCeo/",
         "showDiff": false,
-        "actual": "// Code your solution in this file!\n const companyName = \"Scuber\"\n\n  let mostProfitableNeighborhood= \"Chelsea\" \n\n  var companyCeo = \"Susan Smith\"\n\n  let CompanyCeo = \"Susan Smith\"\n\n",
-        "stack": "AssertionError: Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\n const companyName = \"Scuber\"\\n\\n  let mostProfitableNeighborhood= \"Chelsea\" \\n\\n  var companyCeo = \"Susan Smith\"\\n\\n  let CompanyCeo = \"Susan Smith\"\\n\\n' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:33:21)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "// Code your solution in this file!\n const companyName = \"Scuber\"\n\n  let mostProfitableNeighborhood= \"Chelsea\" \n\n  var companyCeo = \"Susan Smith\"\n  let CompanyCeo = \"Susan Smith\"\n \n",
+        "stack": "AssertionError: Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\n const companyName = \"Scuber\"\\n\\n  let mostProfitableNeighborhood= \"Chelsea\" \\n\\n  var companyCeo = \"Susan Smith\"\\n  let CompanyCeo = \"Susan Smith\"\\n \\n' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:33:21)\n    at processImmediate (node:internal/timers:466:21)"
       }
     }
   ],
@@ -63,13 +63,13 @@
     {
       "title": "is defined using let",
       "fullTitle": "index.js companyCeo is defined using let",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
-        "message": "Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\n const companyName = \"Scuber\"\\n\\n  let mostProfitableNeighborhood= \"Chelsea\" \\n\\n  var companyCeo = \"Susan Smith\"\\n\\n  let CompanyCeo = \"Susan Smith\"\\n\\n' to match /let companyCeo/",
+        "message": "Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\n const companyName = \"Scuber\"\\n\\n  let mostProfitableNeighborhood= \"Chelsea\" \\n\\n  var companyCeo = \"Susan Smith\"\\n  let CompanyCeo = \"Susan Smith\"\\n \\n' to match /let companyCeo/",
         "showDiff": false,
-        "actual": "// Code your solution in this file!\n const companyName = \"Scuber\"\n\n  let mostProfitableNeighborhood= \"Chelsea\" \n\n  var companyCeo = \"Susan Smith\"\n\n  let CompanyCeo = \"Susan Smith\"\n\n",
-        "stack": "AssertionError: Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\n const companyName = \"Scuber\"\\n\\n  let mostProfitableNeighborhood= \"Chelsea\" \\n\\n  var companyCeo = \"Susan Smith\"\\n\\n  let CompanyCeo = \"Susan Smith\"\\n\\n' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:33:21)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "// Code your solution in this file!\n const companyName = \"Scuber\"\n\n  let mostProfitableNeighborhood= \"Chelsea\" \n\n  var companyCeo = \"Susan Smith\"\n  let CompanyCeo = \"Susan Smith\"\n \n",
+        "stack": "AssertionError: Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\n const companyName = \"Scuber\"\\n\\n  let mostProfitableNeighborhood= \"Chelsea\" \\n\\n  var companyCeo = \"Susan Smith\"\\n  let CompanyCeo = \"Susan Smith\"\\n \\n' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:33:21)\n    at processImmediate (node:internal/timers:466:21)"
       }
     }
   ],
@@ -77,14 +77,14 @@
     {
       "title": "is set as Scuber",
       "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is defined as a const",
       "fullTitle": "index.js companyName is defined as a const",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
