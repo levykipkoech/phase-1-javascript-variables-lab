@@ -3,6 +3,8 @@
 
   let mostProfitableNeighborhood= "Chelsea" 
 
-  var companyCeo = "Susan Smith"
-  let CompanyCeo = "Susan Smith"
+  
+  let companyCeo = 'Susan Smith'
+
+  //CompanyCeo = "Susan Smith"
  
